@@ -25,11 +25,14 @@ Test in je browser of je server werkt. Vervang test-skill eventueel voor de naam
 
 ## Heroku
 De server en submodules zijn ook beschikbaar op Heroku. 
+> Om problemen te voorkomen bij het installeren van submodules moet je niet via de webbased interface deployen, maar je code direct naar je Heroku Git repo pushen. Submodules worden dan automatisch geinstalleerd, en het `postinstall` script haalt de dependencies op.
+```
+heroku apps --all
+heroku git:remote -a avans-alexa-server
+git remote -v
+git push heroku
+```
+
 - [https://avans-alexa-server.herokuapp.com/alexa/test-skill](https://avans-alexa-server.herokuapp.com/alexa/test-skill)
 
-> Om problemen te voorkomen bij het installeren van submodules moet je niet via de webbased interface deployen, maar je code direct naar je Heroku Git repo pushen. Submodules worden dan automatisch geinstalleerd, en het `postinstall` script haalt de dependencies op.
-> heroku apps --all
-> heroku git:remote -a avans-alexa-server
-> git remote -v
-> git push heroku
   
