@@ -1,5 +1,5 @@
-# node-ecf-server
-Dit is een kleine Nodejs sever. De server draait op [Heroku](https://e-cf-server.herokuapp.com/).
+# alexa-nodejs-server
+Dit is een server waarin Alexa skills kunnen draaien. Deze server is een standalone Git repo; de skills worden als Git submodules (aparte Git repo's) included.
 
 ## Gebruik
 Clone deze repo naar een directory op je eigen laptop. Je kunt de server lokaal starten:
@@ -7,12 +7,5 @@ Clone deze repo naar een directory op je eigen laptop. Je kunt de server lokaal 
 Vanaf de command line:
 ```
 npm install
-npm start
 ```
 
-## API
-De server biedt een aantal *API endpoints*
-- [/api](https://e-cf-server.herokuapp.com/api)
-- [/api/b](https://e-cf-server.herokuapp.com/api/b)
-- [/api/b/2](https://e-cf-server.herokuapp.com/api/b/2)
-- [/api/b/2/3](https://e-cf-server.herokuapp.com/api/b/2/3)
