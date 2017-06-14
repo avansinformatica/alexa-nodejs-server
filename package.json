@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Alexa server to host multiple skills",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "alexa-app-server": "^3.0.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
