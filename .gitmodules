@@ -1,3 +1,6 @@
 [submodule "apps/alexa-nodejs-test-skill"]
 	path = apps/alexa-nodejs-test-skill
 	url = https://github.com/avansinformatica/alexa-nodejs-test-skill.git
+[submodule "apps/nodejs-decisiontree-skill"]
+	path = apps/nodejs-decisiontree-skill
+	url = https://github.com/avansinformatica/alexa-nodejs-decisiontree-skill.git
