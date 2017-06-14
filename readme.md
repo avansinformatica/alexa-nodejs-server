@@ -28,7 +28,7 @@ De server en submodules zijn ook beschikbaar op Heroku.
 > Om problemen te voorkomen bij het installeren van submodules moet je niet via de webbased interface deployen, maar je code direct naar je Heroku Git repo pushen. Submodules worden dan automatisch geinstalleerd, en het `postinstall` script haalt de dependencies op.
 ```
 heroku apps --all
-heroku git:remote -a avans-alexa-server
+heroku git:remote -a yourappname
 git remote -v
 git push heroku
 ```
