@@ -4,10 +4,23 @@ Dit is een server waarin Alexa skills kunnen draaien. Deze server is een standal
 Dit voorbeeld is afkomstig van [dit uitgewerkte voorbeeld](https://iwritecrappycode.wordpress.com/2016/04/01/create-an-alexa-skill-in-node-js-and-hosting-it-on-heroku/).
 
 ## Gebruik
-Clone deze repo naar een directory op je eigen laptop. Je kunt de server lokaal starten:
+Clone deze repo naar een directory op je eigen laptop. Vanaf de command line:
+```
+git clone --recursive https://github.com/avansinformatica/alexa-nodejs-server.git
+```
+Hiermee clone je meteen de submodules.
 
-Vanaf de command line:
+Om alle dependencies - ook van de submodules, zie scripts in `package.json` - op te halen type je:
 ```
 npm install
 ```
+Je kunt de server lokaal starten:
+```
+node server.js
+```
+
+## Kijken of het werkt
+Test in je browser of je server werkt. Vervang test-skill eventueel voor de naam van jouw skill.
+- [http://localhost/alexa/test-skill](http://localhost/alexa/test-skill).
+
 
