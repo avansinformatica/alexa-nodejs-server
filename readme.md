@@ -21,6 +21,6 @@ node server.js
 
 ## Kijken of het werkt
 Test in je browser of je server werkt. Vervang test-skill eventueel voor de naam van jouw skill.
-- [http://localhost/alexa/test-skill](http://localhost/alexa/test-skill).
+- [http://localhost:3000/alexa/test-skill](http://localhost:3000/alexa/test-skill).
 
 
