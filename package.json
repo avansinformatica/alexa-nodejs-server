@@ -1,35 +1,35 @@
 {
-  "name": "alexa-nodejs-server",
-  "version": "1.0.0",
-  "description": "Alexa server to host multiple skills",
-  "main": "server.js",
-  "dependencies": {
-    "alexa-app-server": "^3.0.1",
-    "concurrently": "^3.4.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "concurrently \"cd apps/alexa-nodejs-test-skill && npm install\" \"cd apps/nodejs-decisiontree-skill && npm install\"",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avansinformatica/alexa-nodejs-server.git"
-  },
-  "keywords": [
-    "Alexa",
-    "nodejs",
-    "herku"
-  ],
-  "author": "Robin Schellius",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/avansinformatica/alexa-nodejs-server/issues"
-  },
-  "homepage": "https://github.com/avansinformatica/alexa-nodejs-server#readme",
-  "engines": {
-    "node": ">= 6.10.0",
-    "npm": ">= 4"
-  }
+    "name": "alexa-nodejs-server",
+    "version": "1.0.0",
+    "description": "Alexa server to host multiple skills",
+    "main": "server.js",
+    "dependencies": {
+        "alexa-app-server": "^3.0.1",
+        "concurrently": "^3.4.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "concurrently \"cd apps/alexa-nodejs-test-skill && npm install\"",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/avansinformatica/alexa-nodejs-server.git"
+    },
+    "keywords": [
+        "Alexa",
+        "nodejs",
+        "herku"
+    ],
+    "author": "Robin Schellius",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/avansinformatica/alexa-nodejs-server/issues"
+    },
+    "homepage": "https://github.com/avansinformatica/alexa-nodejs-server#readme",
+    "engines": {
+        "node": ">= 6.10.0",
+        "npm": ">= 4"
+    }
 }
