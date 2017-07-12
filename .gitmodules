@@ -4,3 +4,6 @@
 [submodule "apps/alexa-airportinfo"]
 	path = apps/alexa-airportinfo
 	url = https://github.com/avansinformatica/alexa-airportinfo.git
+[submodule "apps/alexa-nodejs-avans-info"]
+	path = apps/alexa-nodejs-avans-info
+	url = https://github.com/rschellius/alexa-nodejs-avans-info.git
